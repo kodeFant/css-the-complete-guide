@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+}
+
+.the-box {
+  background: #eee;
+  padding: 25px 15px 25px 10px;
+  margin: 10px 15px 20px 15px;
+  border: 3px solid red;
+  width: 30%;
+  display: inline-block;
+}
+
+.the-box:first-of-type {
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+div:last-of-type:hover {
+  background: red;
+}

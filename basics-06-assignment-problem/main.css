@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(20, 9, 59);
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.green-code code {
+  color: green;
+}
+
+li {
+  font: inherit;
+}
+
+li ~ li {
+  background-color: black;
+}
+
+ol li {
+  background-color: black;
+  color: white;
+}
