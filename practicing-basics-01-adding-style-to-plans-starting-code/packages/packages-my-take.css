@@ -1,0 +1,41 @@
+.package {
+  border: 4px solid rgb(18, 37, 12);
+  margin-top: 10px;
+  display: inline-block;
+  width: 80%;
+}
+
+.package:hover {
+  border-color: red;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package-subtitle {
+  color: #777;
+}
+
+.package-description {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+#plus {
+  background-color: #b4d3c0;
+}
+
+#free {
+  background-color: #eee;
+}
+
+#premium {
+  background-color: #11331e;
+  color: white;
+}
